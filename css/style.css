@@ -138,3 +138,60 @@ background-size: cover;}
 
                         .yahya{background-image: url(/Whats-App//img/yahya.jpg);
                             background-size: cover;}
+
+
+
+
+
+
+
+
+
+
+                            @media screen and (max-width:1115px) {
+                                
+
+                                .Container{width: 100%;height: 100vh; background-color: red; display: grid;
+                                    grid-template-columns: 1fr ; overflow: hidden;}
+
+
+                                    #none{display: none;}
+
+
+                                    .top {
+                                        display: grid;
+                                        grid-template-columns: 2fr 1fr;
+                                        border-bottom: 2px solid #202020;
+                                    }
+
+                                    .chat {
+                                        background-color: #272727;
+                                        display: grid;
+                                        grid-template-rows: 0.1fr 1fr 0.1fr;
+                                        border-left: 2px solid #202020;
+                                    }
+                                    .name{display: none;}
+
+                                    input {
+                                        width: 70%;
+                                        height: auto;
+                                   
+                                    }
+                                    .inp {
+                                        border-top: 2px solid #202020;
+                                        text-align: center;
+                                        /* display: flex;
+                                        justify-items: center;
+                                        align-items: center; */
+                                        justify-items: center;
+
+                                    }
+
+                                    .bx-microphone, .bx-link-alt, .bx-smile {
+                                        color: #eee;
+                                        margin-left: 5px; 
+                                         margin-top: 2.5vh;
+                                        font-size: 15px;
+                                        text-align: center;
+                                    }
+                            }
